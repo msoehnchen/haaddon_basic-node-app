@@ -1,6 +1,6 @@
 name: "Basic Node App"
 description: "My first real add-on!"
-version: "1.0.0"
+version: "1.0.1"
 slug: "basic_node_app"
 init: false
 arch:
