@@ -1,3 +1,6 @@
+ARG BUILD_FROM
+FROM $BUILD_FROM
+
 FROM node:22
 
 WORKDIR /app
@@ -5,7 +8,15 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install
 
-COPY . .
 
-EXPOSE 3000
-CMD ["npm", "run", "dev"]
+# Copy data for add-on
+COPY run.sh /
+RUN chmod a+x /run.sh
+
+CMD [ "/run.sh" ]
+
+# COPY . .
+
+
+#EXPOSE 3000
+#CMD ["npm", "run", "dev"]
