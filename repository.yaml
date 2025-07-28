@@ -1,0 +1,5 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: HomeAssistant Basic-Node-App
+slug: basic-node-app
+url: 'https://github.com/msoehnchen/haaddon_basic-node-app'
+maintainer: Marcel Holl <m.soehnchen@gmail.com>
