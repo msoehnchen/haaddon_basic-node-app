@@ -1,8 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-FROM node:22
-
 WORKDIR /app
 
 COPY basic_node_app/package.json ./
