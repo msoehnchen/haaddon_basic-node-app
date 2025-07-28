@@ -9,3 +9,6 @@ arch:
   - armhf
   - armv7
   - i386
+host_network: true
+ports:
+  3000/tcp: 3000
