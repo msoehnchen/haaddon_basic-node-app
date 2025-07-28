@@ -1,0 +1,1 @@
+docker dev -p 3000:3000 -v %cd%:/app basic-node-app
