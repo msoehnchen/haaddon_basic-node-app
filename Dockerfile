@@ -5,12 +5,12 @@ FROM node:22
 
 WORKDIR /app
 
-COPY package.json ./
+COPY basic_node_app/package.json ./
 RUN npm install
 
 
 # Copy data for add-on
-COPY run.sh /
+COPY basic_node_app/run.sh /
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
