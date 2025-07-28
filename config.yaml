@@ -11,5 +11,3 @@ arch:
   - i386
 ports:
   3000:
-    description: "The port the app listens on"
-    exposed: true
