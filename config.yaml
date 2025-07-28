@@ -9,3 +9,9 @@ arch:
   - armhf
   - armv7
   - i386
+build_from:
+  amd64: "node:22"
+  armhf: "node:22"
+  armv7: "node:22"
+  aarch64: "node:22"
+  i386: "node:22"
